@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView android:id="@+id/splashscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="280dp"
+        android:src="@mipmap/ic_launcher_key_plus"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Welcome to Copay"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/Greeting"
+        android:layout_below="@+id/splashscreen"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Direct's Daysheet App!"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/Greeting_Cont"
+        android:layout_below="@+id/Greeting"
+        />
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">copay direct</string>
+
+
+    <string name="action_settings">settings</string>
+    <string name="title_activity_daysheet_view">daysheet_view</string>
+    <string name="title_activity_create_user">createuseractivity</string>
+    <string name="title_activity_forgot__password__view">forgot_password_view</string>
+    <string name="radiobutton209_2">209.2</string>
+    <string name="radiobuttonv62_12">v62.12</string>
+    <string name="radiobutton309_2">309.2</string>
+    <string name="radiobutton203_5">203.5</string>
+    <string-array name="health_insurance_companies_array">
+        <item>acordia national</item>
+        <item>aetna group</item>
+        <item>aflac</item>
+        <item>alliant health plans</item>
+        <item>american family insurance</item>
+        <item>american medical security life insurance company</item>
+        <item>american national insurance company</item>
+        <item>anthem</item>
+        <item>assurant</item>
+        <item>asuris northwest health</item>
+        <item>bcbs of massachusetts group</item>
+        <item>bcbs of michigan group</item>
+        <item>bcbs of new jersey group</item>
+        <item>beech street</item>
+        <item>blue shield of california group</item>
+        <item>blue cross and blue shield association</item>
+        <item>california physicians\' service</item>
+        <item>cambia health solutions inc</item>
+        <item>carefirst inc group</item>
+        <item>celtic insurance co</item>
+        <item>centene corp group</item>
+        <item>cigna health group</item>
+        <item>college health ipa</item>
+        <item>community first</item>
+        <item>continental general</item>
+        <item>fortis</item>
+        <item>golden rule insurance company</item>
+        <item>group health cooperative</item>
+        <item>group health inc</item>
+        <item>guidewell mutual holdings group</item>
+        <item>harvard community health plan</item>
+        <item>hcsc group</item>
+        <item>healthmarkets</item>
+        <item>health net of california inc</item>
+        <item>health net of arizona</item>
+        <item>health net of oregon</item>
+        <item>healthpartners</item>
+        <item>health plan of nevada</item>
+        <item>highmark group</item>
+        <item>hip insurance group</item>
+        <item>humana group</item>
+        <item>independence blue cross group</item>
+        <item>insurance services of america</item>
+        <item>intermountain health care</item>
+        <item>kaiser foundation group</item>
+        <item>kaiser permanente</item>
+        <item>lifetime healthcare group</item>
+        <item>lifewise health plan of arizona</item>
+        <item>lifewise health plan of oregon</item>
+        <item>lifewise health plan of washington</item>
+        <item>medica of minnesota</item>
+        <item>medical mutual</item>
+        <item>metropolitan group</item>
+        <item>molina healthcare inc group</item>
+        <item>oxford health plans inc</item>
+        <item>principal financial group</item>
+        <item>shelter insurance companies</item>
+        <item>uhc of california</item>
+        <item>unicare</item>
+        <item>unitedhealth group</item>
+        <item>unitedhealthcare</item>
+        <item>vista healthplan of south florida</item>
+        <item>wellcare group</item>
+        <item>wellpoint inc group</item>
+        <item>world insurance</item>
+    </string-array>
+</resources>

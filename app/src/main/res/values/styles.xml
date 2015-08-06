@@ -1,0 +1,14 @@
+<resources>
+    <style
+    name="Theme.Chainfire"
+    parent="android:Theme.Black">
+</style>
+<style
+    name="Theme.Chainfire.NoTitleBar"
+    parent="android:Theme.Black.NoTitleBar">
+    </style>
+<style
+    name="Theme.Chainfire.Fullscreen"
+    parent="android:Theme.Black.NoTitleBar.Fullscreen">
+    </style>
+</resources>

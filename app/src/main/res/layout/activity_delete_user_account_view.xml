@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.michael.copaydirect.Delete_User_Account">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Administration"
+        android:id="@+id/title1_id"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space5_id"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/title1_id"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Are you sure you want to delete a user account?"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/Are_you_sure_id"
+        android:layout_below="@+id/space5_id"
+        />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space10_id"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/Are_you_sure_id"
+        android:text=""
+        />
+    <Spinner
+        android:id="@+id/yesnodeletespinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_below="@+id/space10_id"
+        />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space11_id"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/yesnodeletespinner"
+        android:text=""
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text=" User ID:"
+        android:id="@+id/usr_to_phrase_id"
+        android:layout_below="@+id/space11_id"
+        />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space15_id"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/usr_to_phrase_id"
+        android:text=""
+        />
+
+    <EditText
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/user_id_delete_input_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Exactly 9 characters"
+        android:textStyle="bold"
+        android:layout_below="@+id/space15_id"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:background="@drawable/rounded_edit_text"
+        />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space16_id"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/user_id_delete_input_id"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Email:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/email_phrase_id"
+        android:layout_below="@+id/space16_id"
+    />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space12_id"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/email_phrase_id"
+        android:text=""
+        />
+
+    <EditText
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/email_delete_input_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="example@yahoo.com"
+        android:textStyle="bold"
+        android:layout_below="@+id/space12_id"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:background="@drawable/rounded_edit_text"
+        />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space3_id"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/email_delete_input_id"
+        android:text=""
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=" Password:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@+id/space3_id"
+        android:id="@+id/password_delete_id"
+        />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space13_id"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/password_delete_id"
+        android:text=""
+        />
+    <EditText
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/password_delete_input_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="max: 11 characters"
+        android:textStyle="bold"
+        android:layout_below="@+id/space13_id"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:background="@drawable/rounded_edit_text"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space14_id"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/password_delete_input_id"
+        android:text=""
+        />
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Permanently Delete User Account"
+        android:id="@+id/delete_account_button_id"
+        android:layout_below="@+id/space14_id"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:background="@drawable/rounded_button"
+        android:padding="5dp"/>
+
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:id="@+id/space1_id"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/delete_account_button_id"
+                android:text=""
+                />
+</LinearLayout>
+    </ScrollView>
+</RelativeLayout>

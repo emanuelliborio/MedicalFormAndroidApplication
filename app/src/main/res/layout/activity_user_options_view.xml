@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.michael.copaydirect.User_Options">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="User Options"
+        android:id="@+id/title_id"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+<ImageView android:id="@+id/company_icon"
+android:layout_width="wrap_content"
+android:layout_height="160dp"
+android:src="@mipmap/ic_launcher_key_plus"
+android:layout_gravity="center"
+    android:layout_below="@+id/title_id"
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/user_greeting_id"
+        android:layout_below="@+id/company_icon"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space2_id"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/user_greeting_id"
+        android:text=""
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="What would you like to do?"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/navigation_choice"
+        android:layout_below="@+id/user_greeting_id"/>
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space3_id"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/navigation_choice"
+        android:text=""
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View my Patient Daysheets Data"
+        android:id="@+id/view_patient_day_data_id"
+        android:layout_below="@+id/space3_id"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:background="@drawable/rounded_button"
+        android:padding="5dp"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space4_id"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/view_patient_day_data_id"
+        android:text=""
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View my Patient Insurance Verification Data"
+        android:id="@+id/view_patient_ins_data_id"
+        android:layout_below="@+id/space4_id"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:background="@drawable/rounded_button"
+        android:padding="5dp"/>
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space8_id"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/view_patient_ins_data_id"
+        android:text=""
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter New Patient Forms"
+        android:id="@+id/new_patient_forms_id"
+        android:layout_below="@+id/space8_id"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:background="@drawable/rounded_button"
+        android:padding="5dp"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space5_id"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/new_patient_forms_id"
+        android:text=""
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:id="@+id/logout_id"
+        android:layout_below="@+id/space5_id"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:background="@drawable/rounded_button"
+        android:padding="5dp"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/space6_id"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/logout_id"
+        android:text=""
+        />
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
